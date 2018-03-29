@@ -9,8 +9,12 @@ int main(){
     int arr[26] = {0};
     printf("ENTER STRING 1: ");
     gets(str1);
-    printf("ENTER STRING 2: ");
+    printf("STRING 1: ");
+    // puts(str1);
+    // printf("ENTER STRING 2: ");
     gets(str2);
+    // printf("STRING 2: ");
+    // puts(str2);
     for(i = 0; str1[i] != '\0'; ++i){
         if(str1[i] >= 'a' && str1[i] <= 'z'){
             arr[str1[i] - 97]++;
